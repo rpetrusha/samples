@@ -23,7 +23,7 @@ namespace ListItemAndPropertiesCS
             Console.WriteLine("----------------------------------");
 
             // Iterate through the various property groups and subsequently 
-            // through the various properties
+            // through teh various properties
             foreach (BuildPropertyGroup propertyGroup in project.PropertyGroups)
             {
                 foreach (BuildProperty prop in propertyGroup)
